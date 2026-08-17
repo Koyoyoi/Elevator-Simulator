@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elevator Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Elevator Simulator</h1>
+
+    <div class="container">
+
+        <!-- Elevator 1 -->
+        <div class="elevator">
+
+            <h2>Elevator 1</h2>
+
+            <p>
+                Current Floor:
+                <span id="currentFloor1">1</span>
+            </p>
+
+            <p>
+                Target Floor:
+                <input
+                    id="targetFloor1"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value="5"
+                >
+            </p>
+
+            <button id="goButton1">
+                GO
+            </button>
+
+            <p id="status1">
+                Idle
+            </p>
+
+        </div>
+
+
+        <!-- Elevator 2 -->
+        <div class="elevator">
+
+            <h2>Elevator 2</h2>
+
+            <p>
+                Current Floor:
+                <span id="currentFloor2">10</span>
+            </p>
+
+            <p>
+                Target Floor:
+                <input
+                    id="targetFloor2"
+                    type="number"
+                    min="1"
+                    max="10"
+                    value="5"
+                >
+            </p>
+
+            <button id="goButton2">
+                GO
+            </button>
+
+            <p id="status2">
+                Idle
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="elevator.js"></script>
+
+</body>
+
+</html>
