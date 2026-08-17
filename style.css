@@ -1,54 +1,55 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
     text-align: center;
-    background: #f5f5f5;
 }
 
-h1 {
-    margin-top: 30px;
-}
-
-.container {
+#elevators {
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
     gap: 30px;
-    margin-top: 40px;
 }
 
 .elevator {
-    width: 300px;
-    padding: 30px;
-    background: white;
+    width: 250px;
+    padding: 20px;
+
+    background-color: white;
+    border: 2px solid #333;
     border-radius: 10px;
+
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 .elevator h2 {
-    margin-bottom: 30px;
+    margin-top: 0;
 }
 
-.elevator span {
-    font-size: 36px;
-    font-weight: bold;
+.elevator p {
+    display: grid;
+    grid-template-columns: 120px 100px;
+    align-items: center;
+    margin: 10px 0;
+    text-align: left;
 }
 
-input {
+.elevator input {
     width: 60px;
     padding: 8px;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
-button {
-    padding: 10px 30px;
-    font-size: 18px;
+.elevator button {
+    margin-left: 130px;
+    padding: 8px 15px;
+
+    font-size: 16px;
     cursor: pointer;
 }
 
-button:hover {
-    background: #ddd;
-}
-
-#status1,
-#status2 {
-    font-weight: bold;
+.elevator button:hover {
+    background-color: #ddd;
 }
