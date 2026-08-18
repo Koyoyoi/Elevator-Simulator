@@ -5,5 +5,5 @@
 
 ### C++ Demo
 
-The C++/Qt version is included in the Elevator-Simulator C++.zip
+The C++/Qt version is included in the ElevatorSimulator.exe .zip
 
