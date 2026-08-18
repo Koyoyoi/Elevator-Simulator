@@ -3,7 +3,7 @@
 
 [https://koyoyoi.github.io/Elevator-Simulator/](https://koyoyoi.github.io/Elevator-Simulator/)
 
-### C++ Version
+### C++ Demo
 
 The C++/Qt version is included in the Elevator-Simulator C++.zip
 
