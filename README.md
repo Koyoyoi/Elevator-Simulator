@@ -5,5 +5,5 @@
 
 ### C++ Version
 
-The C++/Qt version is included in the project directory.
+The C++/Qt version is included in the Elevator-Simulator C++.zip
 
